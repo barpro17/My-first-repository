@@ -1,0 +1,23 @@
+fun main() {
+
+    val imie = "Bartosz"
+    var klasa = "4D"
+    val kierunek = "Technik informatyk"
+
+    println("===== MOJE DANE =====")
+    println("Imie: $imie")
+    println("Klasa: $klasa")
+    println("Kierunek: $kierunek")
+
+    fun obliczGodziny(godziny: Int, tygodnie: Int): Int {
+        return godziny * tygodnie
+    }
+
+    val wynik1 = obliczGodziny(2, 4)
+
+    val wynik2 = obliczGodziny(5, 3)
+
+    println("===== WYNIKI =====")
+    println("Pierwszy wynik: $wynik1 godzin")
+    println("Drugi wynik: $wynik2 godzin")
+}
